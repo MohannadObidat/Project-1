@@ -84,6 +84,7 @@ const resetGame=()=>{
     for(i=0;i<box.length;i++){
         box[i].innerHTML=""
     }
+    status.innerText="X turn now"
     turn=true
 }
 
